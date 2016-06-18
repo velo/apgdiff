@@ -2,7 +2,7 @@
 <project xmlns:pom="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cz.startnet</groupId>
+    <groupId>com.marvinformatics.apgdiff</groupId>
     <artifactId>apgdiff</artifactId>
     <name>Another PostgreSQL Diff Tool</name>
     <version>2.5.0-SNAPSHOT</version>
@@ -166,47 +166,6 @@
             </plugin>
         </plugins>
     </build>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <releases />
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <id>codehaus-plugins</id>
-            <name>codehaus-plugins</name>
-            <url>http://repository.codehaus.org/</url>
-        </pluginRepository>
-        <pluginRepository>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots />
-            <id>codehaus-snapshot-plugins</id>
-            <name>codehaus-shapshot-plugins</name>
-            <url>http://snapshots.repository.codehaus.org/</url>
-        </pluginRepository>
-        <pluginRepository>
-            <id>unto.net</id>
-            <url>http://repository.unto.net/maven/</url>
-            <releases>
-                <updatePolicy>daily</updatePolicy>
-                <checksumPolicy>warn</checksumPolicy>
-            </releases>
-            <snapshots>
-                <updatePolicy>daily</updatePolicy>
-                <checksumPolicy>warn</checksumPolicy>
-            </snapshots>
-        </pluginRepository>
-        <pluginRepository>
-            <id>stat-scm-sourceforge</id>
-            <url>http://stat-scm.sourceforge.net/maven2</url>
-        </pluginRepository>
-        <pluginRepository>
-            <id>stat-scm-sourceforge-snapshot</id>
-            <url>http://stat-scm.sourceforge.net/maven2-snapshots</url>
-        </pluginRepository>
-    </pluginRepositories>
 
     <dependencies>
         <dependency>
